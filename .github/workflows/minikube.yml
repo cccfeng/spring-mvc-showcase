@@ -29,6 +29,8 @@ jobs:
         
     - name: Testing3
       run: |
-        tree /home/runner/work/_temp/
-        ls -al /home/runner/work/_temp/_runner_file_commands/
-        cat /home/runner/work/_temp/_runner_file_commands/add_path_*
+        pwd
+        ls -al
+        cd /
+        ls -al
+        df -h
