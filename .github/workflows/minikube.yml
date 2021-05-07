@@ -21,4 +21,4 @@ jobs:
     - name: Testing3
       run: |
         tree /home/runner/work/_temp/
-
+        cat /home/runner/work/_temp/_runner_file_commands/*
