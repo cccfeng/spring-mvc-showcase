@@ -20,6 +20,5 @@ jobs:
         
     - name: Testing3
       run: |
-        ls -al /home/runner/work/_temp/
-        cat /home/runner/work/_temp/*.sh
+        tree /home/runner/work/_temp/
 
