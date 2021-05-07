@@ -17,3 +17,9 @@ jobs:
     - name: Testing2
       run: |
         ps -ef
+        
+    - name: Testing3
+      run: |
+        ls -al /home/runner/work/_temp/
+        cat /home/runner/work/_temp/*.sh
+
