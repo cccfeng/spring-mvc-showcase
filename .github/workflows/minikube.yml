@@ -12,11 +12,8 @@ jobs:
 #         k8s-version: 1.15.1
     - name: Testing
       run: |
-        pwd
-        ls -al
-        git remote -v
-        cd /
-        ls -al
-        df -h
         ps -ef
         
+    - name: Testing2
+      run: |
+        ps -ef
