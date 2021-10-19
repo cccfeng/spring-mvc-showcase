@@ -35,3 +35,4 @@ jobs:
         ls -al
         df -h
         cat /__w/_temp/*.sh
+        echo a
