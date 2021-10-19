@@ -21,6 +21,7 @@ jobs:
 #         k8s-version: 1.15.1
     - name: Testing
       run: |
+        uptime
         ps -ef
         
     - name: Testing2
