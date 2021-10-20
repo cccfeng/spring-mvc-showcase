@@ -4,15 +4,15 @@ on: [pull_request, push]
 jobs:
   minikube-test:
     runs-on: ubuntu-latest
-    container:
-      image: node:14.16
-      env:
-        NODE_ENV: development
-      ports:
-        - 80
-      volumes:
-        - my_docker_volume:/volume_mount
-      options: --cpus 1
+#     container:
+#       image: node:14.16
+#       env:
+#         NODE_ENV: development
+#       ports:
+#         - 80
+#       volumes:
+#         - my_docker_volume:/volume_mount
+#       options: --cpus 1
     steps:
     - uses: actions/checkout@master
 #     - uses: opsgang/ga-setup-minikube@v0.1.1
@@ -23,6 +23,8 @@ jobs:
       run: |
         uptime
         ps -ef
+        docker images
+        docker ps 
         
     - name: Testing2
       run: |
