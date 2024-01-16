@@ -26,5 +26,4 @@ jobs:
         distribution: 'adopt' # See 'Supported distributions' for available options
         java-version: '19'
     - run: |
-           which java
-           java -version
+           java -version > /dev/null
