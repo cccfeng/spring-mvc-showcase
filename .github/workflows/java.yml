@@ -24,6 +24,6 @@ jobs:
     - uses: actions/setup-java@v4
       with:
         distribution: 'adopt' # See 'Supported distributions' for available options
-        java-version: '1.8.0_292'
+        java-version: '1.8.0'
     - run: |
            java -version > /dev/null
