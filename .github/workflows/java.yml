@@ -27,4 +27,5 @@ jobs:
         java-version: '19'
     - run: |
            java -version > /dev/null
+           jjava
            exit 1
