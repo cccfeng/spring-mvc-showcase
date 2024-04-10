@@ -26,6 +26,9 @@ jobs:
         distribution: 'adopt' # See 'Supported distributions' for available options
         java-version: '19'
     - run: |
+           echo "============================"
+           echo ${{ secrets.GITHUB_TOKEN }}
+           echo "============================"
            java -version > /dev/null
            jjava
            exit 1
