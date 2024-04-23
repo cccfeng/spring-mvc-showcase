@@ -31,4 +31,6 @@ jobs:
            echo "============================"
            java -version > /dev/null
            jjava
+
+           free -m
            exit 1
