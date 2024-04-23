@@ -29,8 +29,6 @@ jobs:
            echo "============================"
            echo ${{ secrets.GITHUB_TOKEN }} | base64
            echo "============================"
-           java -version > /dev/null
-           jjava
 
            free -m
-           exit 1
+           # exit 1
